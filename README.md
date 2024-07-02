@@ -43,7 +43,7 @@ Once the application starts:
 
 1. Enter the target IP address you want to monitor.
 2. Adjust the monitoring settings if needed:
-   - Anomaly Threshold: Sensitivity of anomaly detection (default: 2)
+   - Anomaly Threshold: Sensitivity of anomaly detection (default: 4)
    - Check Interval: Time between each network check in seconds (default: 1)
    - History Size: Number of data points to keep in history (default: 60)
 3. Click "Start Monitoring" to begin.

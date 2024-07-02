@@ -21,7 +21,7 @@ class NetworkMonitor(QThread):
     speed_update_signal = pyqtSignal(int, int)
     graph_update_signal = pyqtSignal(int, int)
 
-    def __init__(self, target_ip, anomaly_threshold=2, check_interval=1, history_size=60):
+    def __init__(self, target_ip, anomaly_threshold=4, check_interval=1, history_size=60):
         super().__init__()
         self.target_ip = target_ip
         self.anomaly_threshold = anomaly_threshold
