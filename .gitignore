@@ -1,0 +1,11 @@
+# Conda
+.conda/
+*.conda
+
+# logfiles
+network_monitor*.log
+
+notes.md
+
+
+
